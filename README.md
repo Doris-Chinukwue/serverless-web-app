@@ -33,7 +33,7 @@ when a user submits the form.
 
 2. The browser requests the HTML file from S3
 
-3. S3 returns the HTML file — no code runs, S3 just delivers the file
+3. S3 returns the HTML file with no code runs, S3 just delivers the file
 
 4. The user fills in the form and clicks submit
 
@@ -55,7 +55,7 @@ when a user submits the form.
 
 ## Security and Permissions
 
-**Lambda IAM Role — Least Privilege**
+**Lambda IAM Role (Least Privilege)**
 
 The Lambda function runs under a dedicated IAM role with exactly 
 two permissions attached.
@@ -77,7 +77,7 @@ during development.
 
 ---
 
-**The Typo Trap — Debugging a Python NameError**
+**The Typo Trap (Debugging a Python NameErro)r**
 
 What happened: I hit a NameError because I accidentally typed 
 `sudmission_Id` when creating the variable, but tried to reference 
